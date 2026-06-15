@@ -1,0 +1,138 @@
+# ══════════════════════════════════════════
+# Auto-generated .gitignore
+# ══════════════════════════════════════════
+
+# ── Python ──
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+*.egg
+dist/
+build/
+.eggs/
+*.whl
+
+# ── Virtual Environments ──
+venv/
+.venv/
+.venv1/
+env/
+ENV/
+sadtalker_env/
+rafay/
+
+# ── IDE ──
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.project
+.settings/
+
+# ── OS ──
+.DS_Store
+Thumbs.db
+desktop.ini
+__MACOSX/
+
+# ── Testing ──
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+
+# ── Node ──
+node_modules/
+package-lock.json
+yarn.lock
+
+# ── Logs ──
+*.log
+logs/
+
+# ── Environment / Secrets ──
+.env
+.env.*
+*.pem
+*.key
+api_keys
+secrets.json
+credentials.json
+service_account.json
+token.json
+massive-current-*.json
+
+# ── Model Weights & Checkpoints ──
+*.pth
+*.pt
+*.onnx
+*.h5
+*.hdf5
+*.pb
+*.tflite
+*.safetensors
+*.ckpt
+*.bin
+*.pkl
+*.pickle
+*.joblib
+*.npy
+*.npz
+
+# ── Large Data Files ──
+*.rar
+*.zip
+*.7z
+*.tar
+*.tar.gz
+*.gz
+*.bz2
+*.xz
+*.parquet
+*.feather
+*.csv
+
+# ── Media (large) ──
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.wmv
+*.flv
+*.webm
+*.mp3
+*.wav
+*.flac
+
+# ── Datasets & Large Directories ──
+datasets/
+dataset/
+checkpoints/
+runs/
+wandb/
+
+# ── Executables ──
+*.exe
+*.dll
+chromedriver*
+
+# ── Database ──
+*.sqlite
+*.db
+*.sql
+
+# ── Project-Specific Large Files ──
+MeinaMix_V11\text_encoder\model.safetensors  # 469.5 MB
+MeinaMix_V11\vae\diffusion_pytorch_model.safetensors  # 319.1 MB
+models\animatediff\diffusion_pytorch_model.fp16.safetensors  # 1592.9 MB
+models\base\anything-v5.safetensors  # 2033.8 MB
+models\controlnet\canny\diffusion_pytorch_model.bin  # 1378.3 MB
+models\controlnet\canny\diffusion_pytorch_model.safetensors  # 1378.2 MB
+models\controlnet\depth\diffusion_pytorch_model.bin  # 1378.3 MB
+models\controlnet\depth\diffusion_pytorch_model.safetensors  # 1378.2 MB
+models\motion\diffusion_pytorch_model.safetensors  # 1592.9 MB
